@@ -22,10 +22,7 @@ class SiteNavbar extends HTMLElement {
         <a href="${prefix}#Project" class="nav-link">Project</a>
         <span class="navbar-separator">|</span>
         <a href="${prefix}#Technical_Skill" class="nav-link nav-desktop">Technical Skill</a>
-        <span class="navbar-separator">|</span>
-        <a href="${prefix}#Research" class="nav-link nav-desktop">Research</a>
-        <span class="navbar-separator">|</span>
-        <a href="${prefix}#Miscellaneous" class="nav-link nav-desktop">Miscellaneous</a>
+        
     </div>
     <div class="mobile-menu" id="mobileMenu">
         <a href="${prefix}#Bio">Bio</a>
@@ -66,16 +63,8 @@ class SiteFooter extends HTMLElement {
     </div>
 </div>
 <footer style="background-color:rgba(0,0,0,0.05);padding:10px 15px;text-align:center;margin-top:15px;">
-    <p style="margin:8px 0;font-size:0.95em;">
-          <a href="/social" id="footerSocialLink" style="font-weight:bold;text-decoration:underline;">Social Media</a>
-        &nbsp;|&nbsp;
-          <a href="#" id="anonymousMessageFooterLink" style="font-weight:bold;text-decoration:underline;">Anonymous Message</a>
-        &nbsp;|&nbsp;
-        <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer" style="font-weight:bold;text-decoration:underline;">Source Code</a>
-    </p>
-    <p style="margin:8px 0;font-size:0.85em;color:#666;">
-        <span id="lastModified">Last Modified: —</span>
-    </p>
+   
+
 </footer>`;
 
         document.getElementById('footerSocialLink').addEventListener('click', function () {
